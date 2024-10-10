@@ -1,12 +1,12 @@
 # Ex-6-Pseudorandom-Number-Generation
-##Aim:
+## Aim:
 To implement Pseudorandom Number Generation using the standard library functions in C.
-##Algorithm:
-1.Seed the random number generator using srand() to initialize it with a starting value.
-2.Generate pseudorandom numbers using rand().
-3.To ensure different results on each execution, seed srand() with a dynamic value like the current time (time(NULL)).
-4.Use modulo operation to limit the range of generated numbers.
-##Program:
+## Algorithm:
+1.    Seed the random number generator using srand() to initialize it with a starting value.
+2.    Generate pseudorandom numbers using rand().
+3.    To ensure different results on each execution, seed srand() with a dynamic value like the current time (time(NULL)).
+4.    Use modulo operation to limit the range of generated numbers.
+## Program:
 ```c
 #include <stdio.h>
 //Constants for LCG
@@ -37,7 +37,7 @@ int main() {
 ```
 ## output:
 ![Screenshot 2024-10-10 090715](https://github.com/user-attachments/assets/65f728a7-e4cc-4c2d-bebe-0ce4c95c3c48)
-##result:
+## result:
 Thus, the pseudorandom number generation was successfully implemented using the standard library functions srand() and rand().
 
  
